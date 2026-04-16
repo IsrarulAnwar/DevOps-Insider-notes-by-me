@@ -1,0 +1,465 @@
+# 📘 IT & Azure Fundamentals – Comprehensive Notes
+
+---
+
+## 🌍 IT Everywhere Concept
+
+Today, Information Technology (IT) exists in almost every industry.
+
+**Example:** Travel platforms like *MakeMyTrip*
+
+### How Web Applications Work
+
+1. User opens the website  
+2. Enters travel details (Delhi → Bangalore)  
+3. System processes the request  
+4. Results are fetched from the database  
+
+👉 This demonstrates how modern web applications work behind the scenes.
+
+---
+
+## 🌐 Platforms Where Applications Run
+
+Modern applications are accessible on:
+
+- Web Browsers  
+- Android Apps  
+- iOS Apps  
+
+All platforms communicate with the same backend via APIs.
+
+**Example API:**
+api.makemytrip.com/findFlights
+
+
+---
+
+## 🏗️ 3-Tier Architecture
+
+### 🍽️ Analogy: Restaurant
+
+| Layer        | Example        |
+|-------------|----------------|
+| Frontend    | Waiter         |
+| Backend     | Kitchen        |
+| Database    | Store Room     |
+
+---
+
+### 🎨 Frontend (Presentation Layer)
+
+Technologies:
+- React  
+- Next.js  
+- Angular  
+
+Responsibilities:
+- UI/UX  
+- User input handling  
+- Display results  
+
+👨‍💻 Developed by: Frontend Developers
+
+---
+
+### ⚙️ Backend (Application Layer)
+
+Technologies:
+- Python  
+- Java  
+- .NET  
+- Go  
+- Rust  
+
+Responsibilities:
+- Business logic  
+- Request processing  
+- API handling  
+
+👨‍💻 Developed by: Backend Developers
+
+---
+
+### 🗄️ Database (Data Layer)
+
+Examples:
+- MySQL  
+- MongoDB  
+- PostgreSQL  
+
+Responsibilities:
+- Data storage  
+- Query execution  
+- Data retrieval  
+
+👨‍💻 Managed by: DBA / Database Developers
+
+---
+
+## 🧮 Example Logic Execution
+
+Formula:
+c = a² + b² + 2ab
+
+
+Steps:
+1. User inputs values  
+2. Backend processes logic  
+3. Data stored in DB  
+4. Result returned to frontend  
+
+---
+
+## 👥 Roles in Software Development
+
+### 🎯 UX Designer
+- UI design  
+- User flow  
+- Layout  
+
+### 👨‍💻 Developers
+- Frontend: React, Angular, Next.js  
+- Backend: Python, Java, .NET  
+
+### 🗄️ Database Developer
+- Data structure  
+- Performance tuning  
+
+---
+
+## 🏛️ Software Architecture
+
+### 📊 HLD (High-Level Design)
+- System overview  
+- Components  
+- Interactions  
+
+### 🔍 LLD (Low-Level Design)
+- API details  
+- Server configs  
+- DB schema  
+
+---
+
+## ☁️ Landing Zone (Cloud)
+
+Includes:
+- Security  
+- Backup  
+- Disaster Recovery  
+- Governance  
+
+👉 Ready-to-use infrastructure in cloud
+
+---
+
+## 🔐 DevSecOps Engineer
+
+Responsibilities:
+- Deploy code  
+- Ensure security  
+- Automation  
+- Monitoring  
+- CI/CD  
+
+👉 Developer writes code → DevSecOps deploys & secures it
+
+---
+
+## 🔄 IT Project Flow
+Customer → Sales → Architect → Developers → DevOps → Users
+
+
+---
+
+## 📄 Important Documents
+
+### 📌 Functional Document
+- Features  
+- System behavior  
+
+### 📌 SOW (Statement of Work)
+- Scope  
+- Timeline  
+- Deliverables  
+
+### 📌 RACI Matrix
+
+| Term        | Meaning |
+|------------|--------|
+| Responsible | Does the work |
+| Accountable | Owns result |
+| Consulted   | Expert input |
+| Informed    | Updated |
+
+---
+
+## 🔁 Agile Development
+
+- Work divided into **Sprints**
+- Typical sprint: **~21 days**
+
+---
+
+## 📝 User Stories
+
+Example:
+As a user, I want to search flights so that I can book travel.
+
+
+---
+
+## 🛠️ Tracking Tools
+
+- JIRA  
+- Azure Boards  
+
+---
+
+## 🔧 Version Control
+
+- GitHub repositories  
+- Code history  
+- Collaboration  
+- CI/CD integration  
+
+---
+
+## 🏗️ Application Architectures
+
+### 1️⃣ 1-Tier
+- All components in one system  
+
+### 2️⃣ 2-Tier
+- Frontend + Database  
+
+### 3️⃣ 3-Tier
+- Frontend + Backend + Database  
+
+---
+
+## 🚀 Deployment
+
+**Definition:**
+Deployment = Running application on a server
+
+
+---
+
+## 💻 Deployment Environments
+
+- Local (Windows/Linux)  
+- Cloud (Azure, AWS, GCP)  
+
+---
+
+## 🔗 Middleware Example
+
+**IIS (Internet Information Services)**
+
+Path: C:\inetpub\wwwroot
+
+
+---
+
+## 🔄 DevOps Workflow
+Code → GitHub → CI/CD → Deployment → Running Application
+
+
+---
+
+# ☁️ Azure Fundamentals
+
+---
+
+## 🔑 Authentication vs Authorization
+
+| Concept | Meaning |
+|--------|--------|
+| Authentication | Who you are |
+| Authorization  | What you can do |
+
+---
+
+## 🧠 Microsoft Entra ID (Azure AD)
+
+- Identity & Access Management system  
+- Manages users, groups, roles  
+
+---
+
+## 🔐 RBAC (Role-Based Access Control)
+
+3 Questions:
+1. Who? (User)  
+2. What? (Role)  
+3. Where? (Scope)  
+
+---
+
+## 🌲 Azure Hierarchy
+Entra ID
+↓
+Management Group
+↓
+Subscription
+↓
+Resource Group
+↓
+Resources
+
+
+---
+
+## 💳 Subscription
+
+- Billing boundary  
+- Contains resources  
+
+---
+
+## 📦 Resource Group
+
+- Logical container  
+- Groups related resources  
+
+---
+
+## ⚙️ Resources
+
+Examples:
+- Virtual Machines  
+- Storage  
+- Databases  
+- Networking  
+
+---
+
+## 🧑‍🤝‍🧑 Best Practice
+
+❌ Assign roles directly to users  
+✅ Use Groups → Roles → Resources  
+
+---
+
+## 💰 Cost & Security
+
+- Pay-as-you-go model  
+- Always monitor usage  
+
+---
+
+# 🧪 Azure Practical Lab
+
+---
+
+## Step 1: Login
+https://portal.azure.com
+
+
+---
+
+## Step 2: Create Resource Group
+
+- Name: `rg-devops-lab`  
+- Region: Central India  
+
+---
+
+## Step 3: Create Virtual Machine
+
+- OS: Ubuntu 22.04  
+- Size: B1s  
+- Allow SSH (Port 22)  
+
+---
+
+## Step 4: Connect to VM
+ssh azureuser@<public-ip>
+
+
+---
+
+## Step 5: Clean Up
+
+Delete Resource Group to avoid charges.
+
+---
+
+# 🌐 Azure Networking Lab
+
+---
+
+## Components
+
+- VNet → Network  
+- Subnet → Segmentation  
+- NSG → Firewall  
+
+---
+
+## Steps
+
+### 1. Create VNet
+- Address: `10.0.0.0/16`
+
+### 2. Create Subnets
+- `subnet-web → 10.0.1.0/24`  
+- `subnet-db → 10.0.2.0/24`  
+
+### 3. Create NSG
+Allow:
+- SSH (22)  
+- HTTP (80)  
+
+### 4. Attach NSG to Subnet
+
+---
+
+## 🚀 Test Setup
+
+Install Nginx:
+sudo apt update
+sudo apt install nginx -y
+
+
+Open in browser:
+http://<public-ip>
+
+
+---
+
+## 🧠 Key Takeaways
+
+- VNet = Network  
+- Subnet = Segmentation  
+- NSG = Security  
+- VM = Compute  
+
+---
+
+## ⚠️ Real-World Issues
+
+- NSG block → App not accessible  
+- Wrong subnet → Communication failure  
+- No public IP → No internet access  
+
+---
+
+## 🧹 Cleanup
+
+Always delete:
+Resource Group: rg-devops-lab
+
+
+---
+
+# 🎯 Final Summary
+
+- IT systems follow structured architecture  
+- Cloud simplifies infrastructure  
+- Azure provides scalable, secure environments  
+- DevOps ensures smooth deployment lifecycle  
+
+---
