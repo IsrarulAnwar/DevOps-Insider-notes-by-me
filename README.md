@@ -358,7 +358,7 @@ The diagram explains how an IT product moves from idea to deployment:
 
 Customer → Sales → Architect → Developers → GitHub → DevOps → Server → Users
 
-##📘 Comprehensive Notes – Business Use Case & Azure Fundamentals
+##📘 Comprehensive Notes – Business Use Case & Azure Fundamentals##
 
 2️⃣ Business Use Case Preparation
 
@@ -513,6 +513,7 @@ dhondhu@tinku.com
 tondu@tinku.com
 tommy@tinku.com
 zoie@tinku.com
+
 1️⃣4️⃣ Azure Portal
 URL: portal.azure.com
 
@@ -525,7 +526,7 @@ Role decides:
 What you can see
 What you can create/delete
 
-##🌩️ Cloud & Azure Fundamentals – Diagram Notes
+##🌩️ Cloud & Azure Fundamentals – Diagram Notes##
 1️⃣ What is Cloud?
 Cloud means using someone else’s computer (server) over the internet instead of buying and maintaining your own.
 
@@ -711,7 +712,7 @@ Cost & Security are top priorities
 Always use Groups, not direct users
 
 
-## 📘 Azure Fundamentals – Comprehensive Notes (Based on Diagram)
+## 📘 Azure Fundamentals – Comprehensive Notes (Based on Diagram)##
 
 ### 1️⃣ What is an Azure Account?
 
